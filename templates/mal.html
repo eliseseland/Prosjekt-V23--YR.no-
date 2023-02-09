@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YR.no</title>
+    <link rel="stylesheet" href='{{url_for("static", filename="style.nav.css")}}'>
+    <link rel="stylesheet" href='{{url_for("static", filename="style.css")}}'>
+    
+    {% block css %}
+    
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><img id="logo" src='{{url_for("static", filename="YR.png")}}' alt=""></a>
+            <a href="/bergen">Bergen</a>
+            <a href="/kristiansand">Kristiansand</a>
+            <a href="/oslo">Oslo</a>
+            <a href="/sandvika">Sandvika</a>
+            <a href="/tromsø">Tromsø</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block innhold %}
+        
+        {% endblock %}
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+
+
+</body>
+</html>
