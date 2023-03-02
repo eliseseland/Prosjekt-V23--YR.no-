@@ -1,0 +1,51 @@
+#hovedbilde{
+    width: 100%;
+    width: 14223x;
+}
+
+#tekst_på_bilde{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#teksten1{
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    top: 30%;
+    text-shadow: 2px 2px #000000;
+
+}
+
+#teksten2{
+    position: absolute;
+    color: white;
+    top: 50%;
+    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.systematisering{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+}
+
+.systematisering p{
+    padding-left: 20px;
+}
+
+h3{
+    padding-left: 20px;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+
+
+

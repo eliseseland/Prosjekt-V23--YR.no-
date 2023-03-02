@@ -27,3 +27,32 @@ img{
     width: 100%;
     width: 100px;
 }
+
+
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+
+#høyre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#lenger_ned{
+    padding-top: 20px;
+}
+
+#lenger_ned2{
+    padding-top: 40px;
+}
+
+.a-footer{
+    color: blue;
+    text-decoration: solid 1px underline;
+}
+
+.a-footer:hover{
+    text-decoration: none;
+}

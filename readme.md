@@ -15,8 +15,12 @@ Dette skal bli en Vær-app. Den lages med Python, Flask, HTML og CSS.
 
 - Opprettet Flask-prosjekt
 - Lagd navbar
-- Opprettet alle side
+- Opprettet alle sider
 
-## Tilbakemeldinger
+## Uke 2
+- Fått alle dataene fra yr inn på de ulike sidene. Sjekket at det fungerer. har også satt dette inn på en oversiktlig og systematisk måte
+- Lagd en footer
 
-- Kvinnelig lærer på 30 år: kjedelig design, hva med emojis som værtegn?
+
+## Uke 3
+- Fått inn symboler for værtypene istedenfor skrift som f.eks: partlycloudy_day
